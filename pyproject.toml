@@ -1,0 +1,19 @@
+[project]
+name = "scaviz"
+version = "0.1.0"
+description = "Side-channel visualization"
+readme = "README.md"
+authors = [{ name = "Gaëtan Cassiers", email = "gaetan.cassiers@uclouvain.be" }]
+requires-python = ">=3.10"
+dependencies = ["fastplotlib", "pygfx", "pylinalg>=0.6.7", "wgpu>=0.22.1"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+pygfx = { git = "https://github.com/cassiersg/pygfx", rev = "2caec31c04e2dd330e1786f73605b3060130bbc9" }
+fastplotlib = { git = "https://github.com/cassiersg/fastplotlib", rev = "b9a3184bca530379c21d44c3d010b0bbd219d910" }
+
+[dependency-groups]
+dev = ["glfw>=2.9.0"]
