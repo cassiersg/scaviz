@@ -40,7 +40,7 @@ class SpectrumPlot:
             spectrum[spectrum < 1] = 1.0
             spectrum = np.log10(spectrum)
             new_spectrum_graphic = SequenceGraphic(
-                spectrum, color="red", x_scale=0.5 / len(self._trace)
+                spectrum, color="red", x_scale=1.0 / size
             )
             if self._spectrum_graphic is not None:
                 self._subplot.remove_graphic(self._spectrum_graphic)
