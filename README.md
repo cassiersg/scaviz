@@ -11,6 +11,10 @@ A side-channel visualization library based on
 `scaviz` currently depends on forks of fastplotlib and pygfx. Therefore, to
 install the correct version of dependencies, it is strongly recommended to use
 [uv](https://docs.astral.sh/uv/).
+You may also install dependencies with `pip` using the provided `requirements.txt` file, then install `scaviz` itself.
+
+User interface for zooming: scroll or shift+scroll.
+
 
 ## On desktop
 
