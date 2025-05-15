@@ -13,7 +13,7 @@ build-backend = "hatchling.build"
 
 [tool.uv.sources]
 pygfx = { git = "https://github.com/cassiersg/pygfx", rev = "2caec31c04e2dd330e1786f73605b3060130bbc9" }
-fastplotlib = { git = "https://github.com/cassiersg/fastplotlib", rev = "b9a3184bca530379c21d44c3d010b0bbd219d910" }
+fastplotlib = { git = "https://github.com/cassiersg/fastplotlib", rev = "70787ce65438667a7edb32faddb781113f0120bb" }
 
 [dependency-groups]
 dev = ["glfw>=2.9.0"]

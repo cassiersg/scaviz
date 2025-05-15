@@ -1,6 +1,6 @@
 cffi==1.17.1
 cmap==0.6.0
-fastplotlib @ git+https://github.com/cassiersg/fastplotlib@b9a3184bca530379c21d44c3d010b0bbd219d910
+fastplotlib @ git+https://github.com/cassiersg/fastplotlib@70787ce65438667a7edb32faddb781113f0120bb
 freetype-py==2.5.1
 glfw==2.9.0
 hsluv==5.0.4
